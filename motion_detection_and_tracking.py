@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-cap = cv.VideoCapture('data/opencv-4.x/opencv/samples/data/vtest.avi')
+cap = cv.VideoCapture('vtest.avi')
 # cap = cv.VideoCapture(0)
 
 ret, frame1 = cap.read()
